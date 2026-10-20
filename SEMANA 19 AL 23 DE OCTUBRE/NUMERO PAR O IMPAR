@@ -1,1 +1,11 @@
-
+Algoritmo Numeroparoimpar
+	definir Number Como Entero
+	escribir "ingrese un munero"
+	Leer Number
+	Si number MOD 2=0 Entonces
+		Escribir " Es par "
+	SiNo
+		Escribir "Es impar"
+	
+		
+	FinSi
