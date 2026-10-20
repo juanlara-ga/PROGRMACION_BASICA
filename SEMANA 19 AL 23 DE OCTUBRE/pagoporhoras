@@ -1,1 +1,14 @@
-
+Algoritmo pago_por_hora
+	Definir horas,extra,sueldo Como Real
+	Escribir " cuantas horas tines trabajas"
+	Leer horas
+	Si horas > 42 Entonces
+		extra<-horas-42
+		pago<-42*8838
+		sueldo<-extra*8838*1.5
+		total<-pago+sueldo
+		Escribir "el pago total es:",total
+	SiNo
+		horasinextra<-42*8838
+		escribir "el pago total es:", horasinextra
+	Fin Si
