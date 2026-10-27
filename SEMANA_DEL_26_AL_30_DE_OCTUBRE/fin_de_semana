@@ -1,0 +1,11 @@
+Algoritmo fin_de_semana
+	Definir dia Como Entero
+	Escribir "dame un dia con un numero del 1 al 7"
+	Leer dia
+	Si dia >= 1 y dia < 5 Entonces
+		Escribir " es un dia entre semana "
+	SiNo
+		Escribir " es fin de semana "
+	Fin Si
+	
+FinAlgoritmo
