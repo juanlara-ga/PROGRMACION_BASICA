@@ -1,1 +1,12 @@
+Algoritmo pedir_nota
+	Definir nota Como Real
+	Escribir "cual es tu Nota :"
+	Leer nota
+	Si nota >= 0 y nota <= 5.0 Entonces
+		Escribir " Nota valida"
+	SiNo
+		Escribir " Nota no valida "
+	Fin Si
+	
+FinAlgoritmo
 
