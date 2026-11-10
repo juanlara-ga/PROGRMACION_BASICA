@@ -1,0 +1,11 @@
+Algoritmo suma
+Definir i,suma,dato Como Entero
+Escribir "dame un numero: "
+Leer dato
+suma <- 0
+Para i <- 1 Hasta dato 
+  suma <- suma + i
+  Escribir "el resultado de la suma es: :" suma
+FinPara
+Escribir "sumaste " dato " numeros"
+FinAlgoritmo
