@@ -1,0 +1,12 @@
+Algoritmo suma
+Definir i,cantidad Como Entero
+Definir dato Como caracter
+Escribir "dame tu nombre: "
+Leer dato
+Escribir "cuantas veces quieres repetir el nombre: "
+Leer cantidad
+Para i <- 1 Hasta cantidad 
+  Escribir "su nombre es: " dato
+FinPara
+Escribir "repetiste " cantidad " veces tu nombre"
+FinAlgoritmo
